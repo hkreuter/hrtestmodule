@@ -1,0 +1,19 @@
+{
+  "name": "hkreuter/hrtestmodule",
+  "description": "This package contains test module source code.",
+  "type": "oxideshop-module",
+  "keywords": [
+    "oxid",
+    "modules",
+    "eShop"
+  ],
+  "license": [
+    "GPL-3.0",
+    "proprietary"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "hkreuter/hrtestmodule"
+    }
+  }
+}
