@@ -1,16 +1,16 @@
 <?php
 
-namespace hkreuter\MyModuleNamespace\Application\Controller;
+namespace hkreuter\MyModuleNamespaceTwo\Application\Controller;
 
 use oxRegistry;
 
-class MyModulePaymentController extends MyModulePaymentController_parent {
+class MyModuleTwoPaymentController extends MyModuleTwoPaymentController_parent {
 
     public function render()
     {
         $template = parent::render();
 
-        $model = oxNew(\hkreuter\MyModuleNamespace\Application\Model\MyModuleModel::class);
+        $model = oxNew(\hkreuter\MyModuleNamespaceTwo\Application\Model\MyModuleModel::class);
         $message = $model->getInfo();
 
         oxRegistry::getSession()->setVariable('payerror', '-1');

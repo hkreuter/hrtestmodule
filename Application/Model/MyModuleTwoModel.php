@@ -1,8 +1,8 @@
 <?php
 
-namespace hkreuter\MyModuleNamespace\Application\Model;
+namespace hkreuter\MyModuleNamespaceTwo\Application\Model;
 
-class MyModuleModel
+class MyModuleTwoModel
 {
 
     public function getInfo()

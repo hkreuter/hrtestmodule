@@ -1,5 +1,5 @@
 {
-  "name": "hkreuter/hrtestmodule",
+  "name": "hkreuter/hrtestmoduletwo",
   "description": "This package contains test module source code.",
   "type": "oxideshop-module",
   "keywords": [
@@ -13,12 +13,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "hkreuter\\MyModuleNamespace\\": "./"
+      "hkreuter\\MyModuleNamespaceTwo\\": "./"
     }
   },
   "extra": {
     "oxideshop": {
-      "target-directory": "hkreuter/hrtestmodule"
+      "target-directory": "hkreuter/hrtestmoduletwo"
     }
   }
 }

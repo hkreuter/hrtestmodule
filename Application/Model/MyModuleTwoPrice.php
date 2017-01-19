@@ -1,8 +1,8 @@
 <?php
 
-namespace hkreuter\MyModuleNamespace\Application\Model;
+namespace hkreuter\MyModuleNamespaceTwo\Application\Model;
 
-class MyModulePrice extends MyModulePrice_parent {
+class MyModuleTwoPrice extends MyModuleTwoPrice_parent {
 
     /**
      * Double the original price

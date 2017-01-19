@@ -4,7 +4,7 @@
  * Module information
  */
 $aModule = array(
-    'id'           => 'hrTestModule',
+    'id'           => 'hrTestModuleTwo',
     'title'        => 'My test module',
     'description'  => 'Double the price. Show payment error message during checkout.',
     'thumbnail'    => 'module.png',
@@ -21,8 +21,8 @@ $aModule = array(
         #'payment' => \hkreuter\MyModuleNamespace\Application\Controller\MyModulePaymentController::class,
 
         # new style with module namespace
-        \OxidEsales\Eshop\Application\Controller\PaymentController::class => \hkreuter\MyModuleNamespace\Application\Controller\MyModulePaymentController::class,
-        \OxidEsales\Eshop\Core\Price::class => \hkreuter\MyModuleNamespace\Application\Model\MyModulePrice::class
+        \OxidEsales\Eshop\Application\Controller\PaymentController::class => \hkreuter\MyModuleNamespaceTwo\Application\Controller\MyModuleTwoPaymentController::class,
+        \OxidEsales\Eshop\Core\Price::class => \hkreuter\MyModuleNamespaceTwo\Application\Model\MyModuleTwoPrice::class
     ),
     'files' => array(
     ),
