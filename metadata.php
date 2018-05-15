@@ -16,6 +16,14 @@ $aModule = [
     'version'      => '1.0.0',
     'author'       => 'hkreuter',
     'extend'       => [
+        #\OxidEsales\Eshop\Core\Registry::class => \hkreuter\MyModuleNamespace\Core\Registry::class,
+        #\OxidEsales\Eshop\Core\UtilsObject::class => \hkreuter\MyModuleNamespace\Core\UtilsObject::class,
+        #\OxidEsales\Eshop\Core\Module\ModuleInstaller::class => \hkreuter\MyModuleNamespace\Core\ModuleInstaller::class,
+
+        \OxidEsales\Eshop\Core\Controller\BaseController::class => \hkreuter\MyModuleNamespace\Core\BaseController::class,
+        \OxidEsales\Eshop\Application\Controller\FrontendController::class => \hkreuter\MyModuleNamespace\Application\Controller\FrontendController::class,
+        \OxidEsales\Eshop\Application\Controller\AccountController::class => \hkreuter\MyModuleNamespace\Application\Controller\AccountController::class,
+
         # old style, no longer recommended
         #'payment' => 'hkreuter/testmodule/Application/Controller/MyModulePaymentController'
 
